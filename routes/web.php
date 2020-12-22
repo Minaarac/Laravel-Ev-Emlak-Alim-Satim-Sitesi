@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/home2', function () {
     return view('welcome');
 });
+Route::get('/', function () {
+    return view('home.index');
+});
+Route::get('/home',[HomeController::class,'index'])->name('home');
+
+Route::get('/test/{id}/{name}',[\App\Http\Controllers\HomeController::class,'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

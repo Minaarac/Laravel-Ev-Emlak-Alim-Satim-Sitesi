@@ -9,6 +9,19 @@ class HomeController extends Controller
     //
     public function index()
     {
-        echo "Home Controller Test";
+        return view('home.index');
     }
+
+    public function test($id,$name)
+    {
+        return view('home.test',['id'=>$id,'name'=>$name]);
+        /*
+        echo "Number".$id;
+        for ($i=1;$i<=$id;$i++)
+        {
+            echo "<br> $i -- $name";
+        }*/
+    }
+
+
 }
