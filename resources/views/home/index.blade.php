@@ -11,6 +11,7 @@
 
 @section('content')
     @include('home._slide')
+    <!-- eretewg -->
     <!-- Advance Search -->
     <section id="aa-advance-search">
         <div class="container">
