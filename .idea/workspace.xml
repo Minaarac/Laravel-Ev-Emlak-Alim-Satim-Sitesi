@@ -10,10 +10,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Category Database İşlemleri Model Migration Route Controller List">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Category Ekleme Silme">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +227,7 @@
       <workItem from="1610456843704" duration="5123000" />
       <workItem from="1610462267681" duration="5243000" />
       <workItem from="1610485709324" duration="11502000" />
-      <workItem from="1610536405731" duration="2445000" />
+      <workItem from="1610536405731" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -272,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610536333914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Laravel Category Ekleme Silme">
+      <created>1610539268744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539268745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +302,8 @@
     <MESSAGE value="Laravel Admin Panel template Uyarlaması" />
     <MESSAGE value="Laravel Admin Login İşlemleri" />
     <MESSAGE value="Laravel Category Database İşlemleri Model Migration Route Controller List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel Category Database İşlemleri Model Migration Route Controller List" />
+    <MESSAGE value="Laravel Category Ekleme Silme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel Category Ekleme Silme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610534224333">
@@ -358,10 +365,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1610536371955">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1610539278512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610536371955" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610539278512" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
