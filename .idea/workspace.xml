@@ -10,16 +10,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Admin Login İşlemleri">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_12_144354_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_12_144452_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Category Database İşlemleri Model Migration Route Controller List">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +227,8 @@
       <workItem from="1610453132668" duration="3658000" />
       <workItem from="1610456843704" duration="5123000" />
       <workItem from="1610462267681" duration="5243000" />
-      <workItem from="1610485709324" duration="11396000" />
+      <workItem from="1610485709324" duration="11502000" />
+      <workItem from="1610536405731" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -270,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609969827045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Laravel Category Database İşlemleri Model Migration Route Controller List">
+      <created>1610536333914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610536333914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +295,8 @@
     <MESSAGE value="second commit template eklenmesi" />
     <MESSAGE value="Laravel Admin Panel template Uyarlaması" />
     <MESSAGE value="Laravel Admin Login İşlemleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel Admin Login İşlemleri" />
+    <MESSAGE value="Laravel Category Database İşlemleri Model Migration Route Controller List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel Category Database İşlemleri Model Migration Route Controller List" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610534224333">
@@ -355,10 +358,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1609969840451">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1610536371955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609969840451" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610536371955" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
