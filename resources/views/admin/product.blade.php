@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Category List')
+@section('title','Product List')
 
 
 @section('content')
@@ -15,11 +15,11 @@
             <!-- ============================================================== -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h4 class="text-themecolor">Categories</h4>
+                    <h4 class="text-themecolor">Products</h4>
                 </div>
                 <div class="col-md-7 align-self-center text-right">
                     <div class="d-flex justify-content-end align-items-center">
-                        <a href="{{route('admin_category_add')}}" class="btn btn-info d-none d-lg-block m-l-15"><i class="fa fa-plus-circle"></i> Add Category </a>
+                        <a href="{{route('admin_product_add')}}" class="btn btn-info d-none d-lg-block m-l-15"><i class="fa fa-plus-circle"></i> Add Product </a>
                     </div>
                 </div>
             </div>
@@ -40,30 +40,59 @@
                                         <table id="myTable" class="table table-bordered table-striped">
                                             <thead>
                                             <tr>
-                                                <th>ID</th>
+                                                <th>id</th>
                                                 <th>Parent</th>
-                                                <th>Title(s)</th>
+                                                <th>Title</th>
+                                                <th>Keywords</th>
+                                                <th>Description</th>
                                                 <th>Status</th>
+                                                <th>Area</th>
+                                                <th>Location</th>
+                                                <th>Floor</th>
+                                                <th>Room</th>
+                                                <th>Bathroom</th>
+                                                <th>Balcony</th>
+                                                <th>Heating</th>
+                                                <th>Garden</th>
+                                                <th>Garage</th>
+                                                <th>Detail</th>
+                                                <th>Image</th>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
                                             </tr>
+
                                             </thead>
                                             <tbody>
-                                            @foreach ($datalist as $rs)
-
+                                            @foreach($datalist as $rs)
                                                 <tr>
-                                                    <td>{{ $rs->id }}</td>
-                                                    <td>{{ $rs->parent_id }}</td>
-                                                    <td>{{ $rs->title }}</td>
-                                                    <td>{{ $rs->status }}</td>
-                                                    <td><a href="{{route('admin_category_edit',['id'=> $rs->id])}}"> Edit</a></td>
-                                                    <td><a href="{{route('admin_category_delete',['id'=> $rs->id])}}" onclick="return confirm('Delete! Are you sure ?')"> Delete</a></td>
+                                                    <td>{{$rs -> id}} </td>
+                                                    <td>{{$rs -> parent_id}}</td>
+                                                    <td>{{$rs -> title}} </td>
+                                                    <td>{{$rs -> keywords}} </td>
+                                                    <td>{{$rs -> description}}</td>
+                                                    <td>{{$rs -> status}} </td>
+                                                    <td>{{$rs -> area}} </td>
+                                                    <td>{{$rs -> location}} </td>
+                                                    <td>{{$rs -> floor}} </td>
+                                                    <td>{{$rs -> room}} </td>
+                                                    <td>{{$rs -> bathroom}} </td>
+                                                    <td>{{$rs -> balcony}} </td>
+                                                    <td>{{$rs -> heating}} </td>
+                                                    <td>{{$rs -> garden}} </td>
+                                                    <td>{{$rs -> garage}} </td>
+                                                    <td>{{$rs -> detail}} </td>
+                                                    <td>
+
+                                                    @if ($rs->image)
+                                                            <img src="{{Storage::url($rs->image)}}" height="30" alt="">
+                                                        @endif
+                                                    </td>
+                                                    <td><a href="{{route('admin_product_edit',['id'=> $rs->id])}}">  Edit </a></td>
+                                                    <td> <a href="{{route('admin_product_delete', ['id'=> $rs->id])}}" onclick="return confirm('Delete! Are you sure ?')"> Delete </a></td>
                                                 </tr>
-
                                             @endforeach
-
-                                            </tbody>
                                         </table>
+
                                     </div>
                                 </div>
                             </div>

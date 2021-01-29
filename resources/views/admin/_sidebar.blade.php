@@ -17,9 +17,16 @@
                     </ul>
                 </li>
                 <li class="nav-small-cap">--- PERSONAL</li>
-                <li> <a class=" waves-effect waves-dark" href="{{route('admin_category')}}" aria-expanded="false">Categoriler</a>
+                <li> <a class=" waves-effect waves-dark" href="{{ route('admin_category') }}" aria-expanded="false">Categoriler</a>
 
                 </li>
+
+                <li> <a class=" waves-effect waves-dark" href="{{ route('admin_products') }}" aria-expanded="false">Products</a>
+
+                </li>
+
+
+
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-layout-grid2"></i><span class="hide-menu">Apps</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="app-calendar.html">Calendar</a></li>

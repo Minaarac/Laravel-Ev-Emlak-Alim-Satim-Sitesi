@@ -123,7 +123,7 @@
     // Login and Recover Password
     // ==============================================================
     $('#to-recover').on("click", function() {
-        $("#loginform").slideUp();
+        $("#form").slideUp();
         $("#recoverform").fadeIn();
     });
 </script>
