@@ -14,7 +14,7 @@ class CreateProductsTable extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
+            $table->id() ->autoIncrement();
             $table->string('title',150);
             $table->string('keywords')->nullable();
             $table->string('description')->nullable();
@@ -24,7 +24,6 @@ class CreateProductsTable extends Migration
             $table->string('user_id')->nullable();
             $table->integer('area')->nullable();
             $table->string('location',200)->nullable();
-            $table->integer('budget')->nullable();
             $table->string('bathroom')->nullable();
             $table->string('balcony')->nullable();
             $table->string('garden')->nullable()->default('False');

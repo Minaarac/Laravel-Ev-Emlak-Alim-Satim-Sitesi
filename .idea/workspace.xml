@@ -10,19 +10,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Category Edit Düzenleme">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_105125_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_111846_product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Products CRUD Ekleme Listeleme Düzenleme Silme ve  Product Image Upload and Display">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_31_205541_create_images_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_31_210026_image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_14_105125_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_105125_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
@@ -263,7 +262,14 @@
       <workItem from="1611830483394" duration="1248000" />
       <workItem from="1611865035538" duration="4609000" />
       <workItem from="1611874476710" duration="1706000" />
-      <workItem from="1611915454466" duration="8938000" />
+      <workItem from="1611915454466" duration="9132000" />
+      <workItem from="1611927707305" duration="252000" />
+      <workItem from="1611927968024" duration="1090000" />
+      <workItem from="1612102085732" duration="6964000" />
+      <workItem from="1612112750399" duration="5517000" />
+      <workItem from="1612126135222" duration="13304000" />
+      <workItem from="1612140597613" duration="16000" />
+      <workItem from="1612177961287" duration="12956000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -321,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610541172433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Products CRUD Ekleme Listeleme Düzenleme Silme ve  Product Image Upload and Display">
+      <created>1611927491185</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611927491185</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +360,8 @@
     <MESSAGE value="Laravel Category Database İşlemleri Model Migration Route Controller List" />
     <MESSAGE value="Laravel Category Ekleme Silme" />
     <MESSAGE value="Laravel Category Edit Düzenleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel Category Edit Düzenleme" />
+    <MESSAGE value="Products CRUD Ekleme Listeleme Düzenleme Silme ve  Product Image Upload and Display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Products CRUD Ekleme Listeleme Düzenleme Silme ve  Product Image Upload and Display" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611874628069">
@@ -362,10 +376,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608573708676" />
-    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610642179903">
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612178320142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610642179903" />
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612178320142" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608647361914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -413,10 +427,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1610541187883">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1611927525144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610541187883" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611927525144" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
