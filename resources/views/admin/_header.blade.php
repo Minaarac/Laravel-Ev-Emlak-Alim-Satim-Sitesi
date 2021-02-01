@@ -35,6 +35,7 @@
                          <img src="{{asset('assets')}}/admin//assets/images/logo-text.png" alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
                          <img src="{{asset('assets')}}/admin//assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
             </div>
             <!-- ============================================================== -->
             <!-- End Logo -->

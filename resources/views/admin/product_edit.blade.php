@@ -167,8 +167,8 @@
                                 <label for="pwd1">detail</label>
                                 <div class="input-group mb-3">
 
-                                    <input type="text" name="detail" value="{{$data->detail}}" class="form-control" placeholder="detail" aria-label="Password"
-                                           aria-describedby="basic-addon3">
+                                    <textarea id="editor1" class="ckeditor" value="{{$data->detail}}"></textarea>
+
                                 </div>
                             </div>
 

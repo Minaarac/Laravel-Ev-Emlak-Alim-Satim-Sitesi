@@ -165,6 +165,7 @@
                             <div class="form-group">
                                 <label for="pwd1">Detail</label>
                                 <div class="input-group mb-3">
+                                    <textarea id="editor1" class="ckeditor"></textarea>
 
                                 </div>
                             </div>
