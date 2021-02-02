@@ -61,7 +61,9 @@ class ProductController extends Controller
         $data->garden= $request->input('garden');
         $data->garage= $request->input('garage');
         $data->detail= $request->input('detail');
-        $data->image= Storage::putFile('images', $request->file('image')); //file upload
+        if ($request->file('İmage')!=null){
+            $data->image= Storage::putFile('images', $request->file('İmage'));
+        }
 
         $data->save();
         return redirect()->route('admin_products');
@@ -122,7 +124,10 @@ class ProductController extends Controller
         $data->garden= $request->input('garden');
         $data->garage= $request->input('garage');
         $data->detail= $request->input('detail');
-        $data->image= Storage::putFile('images', $request->file('image')); //file upload
+
+        if ($request->file('İmage')!=null){
+            $data->image= Storage::putFile('images', $request->file('İmage'));
+        }
 
         $data->save();
         return redirect()->route('admin_products');

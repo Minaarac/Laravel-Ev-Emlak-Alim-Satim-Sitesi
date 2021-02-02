@@ -14,7 +14,7 @@
             <!-- ============================================================== -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h4 class="text-themecolor">Product Edit </h4>
+                    <h4 class="text-themecolor">Setting Edit </h4>
                 </div>
                 <div class="col-md-7 align-self-center text-right">
                     <div class="d-flex justify-content-end align-items-center">
@@ -35,20 +35,14 @@
                 </div>
                 <div class="card-body">
                     <div class="card">
-                        <form class="form p-t-20" action="{{route('admin_product_update',['id'=>$data->id])}}"
-                              method="POST">
+                        <form class="form p-t-20" action="{{route('admin_setting_update')}}"
+                              method="POST" enctype="multipart/form-data">
                             @csrf
-                            <div class="form-group">
-                                <label>Parent</label>
-                                <select class="form-control select2" name="parent_id" style="width: 100%">
-                                    @foreach($datalist as $rs)
-                                        <option value="{{ $rs->id }}"
-                                                @if($rs->id == $data->category_id) selected="selected" @endif>{{ $rs->title }}</option>
-                                    @endforeach
 
-                                </select>
+                            <input type="hidden" id="id" name="id" value="{{$data->id}}"
+                                   class="form-control" placeholder="Title" aria-label="Password"
+                                   aria-describedby="basic-addon3">
 
-                            </div>
                             <div class="form-group">
                                 <label for="pwd1">Title</label>
                                 <div class="input-group mb-3">
@@ -76,6 +70,156 @@
                                            aria-describedby="basic-addon3">
                                 </div>
                             </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Company</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="company" value="{{$data->company}}" class="form-control"
+                                           placeholder="company" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Address</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="address" value="{{$data->address}}" class="form-control"
+                                           placeholder="address" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Phone</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="phone" value="{{$data->phone}}" class="form-control"
+                                           placeholder="phone" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Fax</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="fax" value="{{$data->fax}}" class="form-control"
+                                           placeholder="fax" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Email</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="email" value="{{$data->email}}" class="form-control"
+                                           placeholder="email" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Smtp Server</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="smtpserver" value="{{$data->smtpserver}}" class="form-control"
+                                           placeholder="smtpserver" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Smtp Email</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="smtpemail" value="{{$data->smtpemail}}" class="form-control"
+                                           placeholder="smtpemail" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Smtp Password</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="password" name="smtppassword" value="{{$data->smtppassword}}" class="form-control"
+                                           placeholder="smtppassword" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Smtp Port</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="number" name="smtpport" value="{{$data->smtpport}}" class="form-control"
+                                           placeholder="smtpport" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Facebook</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="facebook" value="{{$data->facebook}}" class="form-control"
+                                           placeholder="facebook" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Instagram</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="instagram" value="{{$data->instagram}}" class="form-control"
+                                           placeholder="instagram" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd1">Twitter</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="twitter" value="{{$data->twitter}}" class="form-control"
+                                           placeholder="twitter" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Youtube</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="text" name="youtube" value="{{$data->youtube}}" class="form-control"
+                                           placeholder="youtube" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">About Us</label>
+                                <div class="input-group mb-3">
+
+                                    <textarea id="aboutus" name="aboutus" class="ckeditor" value="{{$data->aboutus}}"> </textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Contact</label>
+                                <div class="input-group mb-3">
+
+                                    <textarea id="contact" name="contact" class="ckeditor"> value="{{$data->contact}}"</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">References</label>
+                                <div class="input-group mb-3">
+
+                                    <textarea name="references" id="references"
+                                              class="ckeditor"> value="{{$data->references}}" </textarea>
+
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 <label>Status</label>
                                 <select class="form-control select2" name="status" style="width: 100%">
@@ -87,120 +231,8 @@
                             </div>
 
 
-                            <div class="form-group">
-                                <label for="pwd1">area</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="number" name="area" value="{{$data->area}}" class="form-control"
-                                           placeholder="area" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">location</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="location" value="{{$data->location}}" class="form-control"
-                                           placeholder="location" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">floor</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="number" name="floor" value="{{$data->floor}}" class="form-control"
-                                           placeholder="floor" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">room</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="number" name="room" value="{{$data->room}}" class="form-control"
-                                           placeholder="room" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">bathroom</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="bathroom" value="{{$data->bathroom}}" class="form-control"
-                                           placeholder="bathroom" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">balcony</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="balcony" value="{{$data->balcony}}" class="form-control"
-                                           placeholder="balcony" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">heating</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="heating" value="{{$data->heating}}" class="form-control"
-                                           placeholder="heating" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">garden</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="garden" value="{{$data->garden}}" class="form-control"
-                                           placeholder="garden" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">garage</label>
-                                <div class="input-group mb-3">
-
-                                    <input type="text" name="garage" value="{{$data->garage}}" class="form-control"
-                                           placeholder="garage" aria-label="Password"
-                                           aria-describedby="basic-addon3">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="pwd1">detail</label>
-                                <div class="input-group mb-3">
-
-                                    <textarea name="detail" id="editor1"
-                                              class="ckeditor"> value="{{$data->detail}}" </textarea>
-
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label>Image</label>
-                                <div class="input-group mb-3">
-                                    <input type="file" name="image" value="{{$data->image}}">
-
-                                    @if ($data->image)
-                                        <img src="{{Storage::url($data->image)}}" height="30" alt="">
-                                    @endif
-                                </div>
-                            </div>
-
-
                             <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Update
-                                Product
+                                Setting
                             </button>
 
                         </form>
@@ -210,4 +242,6 @@
         </div>
 
 @endsection
+
+
 

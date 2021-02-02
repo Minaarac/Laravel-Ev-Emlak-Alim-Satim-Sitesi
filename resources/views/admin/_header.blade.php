@@ -36,6 +36,9 @@
                         <!-- Light Logo text -->
                          <img src="{{asset('assets')}}/admin//assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
                 <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+
+
+
             </div>
             <!-- ============================================================== -->
             <!-- End Logo -->
@@ -276,7 +279,6 @@
                             @endauth
                             <div class="dropdown-divider"></div>
                             <!-- text-->
-
                             <!-- text-->
                         </div>
                     </li>
@@ -284,6 +286,7 @@
                     <!-- End User Profile -->
                     <!-- ============================================================== -->
                     <li class="nav-item right-side-toggle"> <a class="nav-link  waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
+
                 </ul>
             </div>
         </nav>
