@@ -41,8 +41,8 @@
                                             <thead>
                                             <tr>
                                                 <th>id</th>
-                                                <th>Parent</th>
-                                                <th>Title</th>
+                                                <th>Category Id</th>
+                                                <th>Title(s)</th>
                                                 <th>Keywords</th>
                                                 <th>Description</th>
                                                 <th>Status</th>
@@ -67,7 +67,7 @@
                                             @foreach($datalist as $rs)
                                                 <tr>
                                                     <td>{{$rs -> id}} </td>
-                                                    <td>{{$rs -> parent_id}}</td>
+                                                    <td>{{$rs -> category->title}}</td>
                                                     <td>{{$rs -> title}} </td>
                                                     <td>{{$rs -> keywords}} </td>
                                                     <td>{{$rs -> description}}</td>

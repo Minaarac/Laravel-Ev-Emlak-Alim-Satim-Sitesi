@@ -37,8 +37,8 @@
                         <form class="form p-t-20" action="{{route('admin_product_store')}}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
-                                <label >Parent</label>
-                                <select class="form-control select2" name="parent_id" style="width: 100%">
+                                <label >Parent </label>
+                                <select class="form-control select2" name="category_id" style="width: 100%">
                                     @foreach($datalist as $rs)
                                         <option value="{{ $rs->id}}">{{ $rs->title}}</option>
                                     @endforeach
@@ -50,7 +50,7 @@
                                 <label for="pwd1">Title</label>
                                 <div class="input-group mb-3">
 
-                                    <input type="text" id="title" name="title" class="form-control" placeholder="Title" aria-label="Password"
+                                    <input type="text" id="title" name="title" class="form-control" placeholder="title" aria-label="Password"
                                            aria-describedby="basic-addon3">
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                 <label for="pwd1">Keywords</label>
                                 <div class="input-group mb-3">
 
-                                    <input type="text" name="keywords" class="form-control" placeholder="Keywords" aria-label="Password"
+                                    <input type="text" name="keywords" class="form-control" placeholder="keywords" aria-label="Password"
                                            aria-describedby="basic-addon3">
                                 </div>
 
@@ -68,7 +68,7 @@
                                 <label for="pwd1">Description</label>
                                 <div class="input-group mb-3">
 
-                                    <input type="text" name="description" class="form-control" placeholder="Description" aria-label="Password"
+                                    <input type="text" name="description" class="form-control" placeholder="description" aria-label="Password"
                                            aria-describedby="basic-addon3">
                                 </div>
                             </div>
