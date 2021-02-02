@@ -15,7 +15,7 @@ class CreateImagesTable extends Migration
     {
         Schema::create('images', function (Blueprint $table) {
             $table->id() ->autoIncrement();
-            $table->string('product_id')->nullable();
+            $table->integer('product_id')->nullable();
             $table->string('title',150);
             $table->string('image',100)->nullable();
 

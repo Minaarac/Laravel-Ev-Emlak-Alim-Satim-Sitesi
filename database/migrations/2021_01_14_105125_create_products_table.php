@@ -19,9 +19,9 @@ class CreateProductsTable extends Migration
             $table->string('keywords')->nullable();
             $table->string('description')->nullable();
             $table->string('image',100)->nullable();
-            $table->string('category_id')->nullable();
+            $table->integer('category_id')->nullable();
             $table->string('status',5)->nullable()->default('False');
-            $table->string('user_id')->nullable();
+            $table->integer('user_id')->nullable();
             $table->integer('area')->nullable();
             $table->string('location',200)->nullable();
             $table->string('bathroom')->nullable();
