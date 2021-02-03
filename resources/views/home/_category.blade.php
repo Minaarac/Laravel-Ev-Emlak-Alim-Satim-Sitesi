@@ -1,11 +1,16 @@
+@php
+    $parentCategories = \App\Http\Controllers\HomeController::categoryList()
+@endphp
+
 <div id="navbar" class="navbar-collapse collapse">
     <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
         <li class="active"><a href="index.html">HOME</a></li>
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="properties.html">PROPERTIES <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="properties.html">SATILIK <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="properties.html">PROPERTIES</a></li>
-                <li><a href="properties-detail.html">PROPERTIES DETAIL</a></li>
+                @foreach($parentCategories as $rs)
+                    <li><a class="dropdown-item small text-uppercase">{{$rs->title}}</a></li>
+                @endforeach
             </ul>
         </li>
         <li><a href="gallery.html">GALLERY</a></li>
@@ -20,3 +25,6 @@
         <li><a href="404.html">404 PAGE</a></li>
     </ul>
 </div><!--/.nav-collapse -->
+</div>
+</nav>
+</section>
