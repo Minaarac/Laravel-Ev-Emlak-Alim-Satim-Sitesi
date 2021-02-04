@@ -1,3 +1,7 @@
+@php
+    $setting=\App\Http\Controllers\HomeController::getsetting()
+@endphp
+
 <!-- Footer -->
 <footer id="aa-footer">
     <div class="container">
@@ -10,12 +14,18 @@
                                 <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
                             </div>
                         </div>
+
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="aa-footer-middle">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-youtube"></i></a>
+
+                                     @if($setting->facebook != null)  <a href="{{$setting->facebook}}" target="_blank" ><i class="fa fa-facebook"></i></a> @endif
+
+                                    @if($setting->twitter != null)<a href="{{$setting->twitter}}" target="_blank" ><i class="fa fa-twitter"></i></a>@endif
+
+                                    @if($setting->instagram != null)<a href="{{$setting->instagram}}" target="_blank" ><i class="fa fa-instagram"></i></a>@endif
+
+                                    @if($setting->youtube != null)<a href="{{$setting->youtube}}" target="_blank" ><i class="fa fa-youtube"></i></a>@endif
+
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">

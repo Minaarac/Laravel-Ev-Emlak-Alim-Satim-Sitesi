@@ -83,6 +83,15 @@
                             </div>
 
                             <div class="form-group">
+                                <label for="pwd1">Price</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="number" name="price" value="0" class="form-control" placeholder="price" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
                                 <label for="pwd1">area</label>
                                 <div class="input-group mb-3">
 

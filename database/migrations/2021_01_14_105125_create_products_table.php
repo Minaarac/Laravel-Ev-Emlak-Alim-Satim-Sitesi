@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('image',100)->nullable();
             $table->integer('category_id')->nullable();
             $table->string('status',5)->nullable()->default('False');
+            $table->float('price')->nullable();
             $table->integer('user_id')->nullable();
             $table->integer('area')->nullable();
             $table->string('location',200)->nullable();

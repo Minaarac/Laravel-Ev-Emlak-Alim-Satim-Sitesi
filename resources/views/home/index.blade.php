@@ -1,12 +1,14 @@
+@php
+    $setting=\App\Http\Controllers\HomeController::getsetting()
+@endphp
+
 @extends('layouts.home')
 
-@section('title','Ev Alım Satım Sitesi')
+@section('title',$setting->title)
 
-@section('description')
-    Türkiye'nin en görkemli ev alım satım sitesi...
-@endsection
+@section('description') {{ $setting->description }} @endsection
 
-@section('keywords','ev,villa,dubleks,bahçe,çiflik evi,apartman,metrekare,yalı,müstakil,site,oda,')
+@section('keywords',$setting->keywords)
 
 
 @section('content')
@@ -111,18 +113,19 @@
                             <div class="col-md-7">
                                 <div class="aa-about-us-right">
                                     <div class="aa-title">
-                                        <h2>About Us</h2>
+                                        <h2> <a href="{{route('aboutus')}}"> About Us </a> </h2>
                                         <span></span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab dignissimos vitae maxime adipisci blanditiis rerum quae quos! Id at rerum maxime modi fugit vero corrupti, ad atque sit laborum ipsum sunt blanditiis suscipit odio, aut nostrum assumenda nobis rem a maiores temporibus non commodi laboriosam, doloremque expedita! Corporis, provident?</p>
-                                    <ul>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                    </ul>
+                                    <h2> Adress</h2>
+                                    <strong>Company :</strong> {{$setting->company}} <br>
+                                    <strong>Address :</strong> {{$setting->address}} <br>
+                                    <strong>Phone :</strong> {{$setting->phone}} <br>
+                                    <strong>Fax :</strong> {{$setting->fax}} <br>
+                                    <strong>Email :</strong> {{$setting->email}} <br>
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -680,6 +683,7 @@
                                 </div>
                             </li>
                             <li>
+
                                 <div class="aa-client-single-brand">
                                     <img src=" {{ asset('assets')}}/img/client-brand-4.png" alt="brand image">
                                 </div>

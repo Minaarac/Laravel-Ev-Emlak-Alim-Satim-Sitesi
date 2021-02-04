@@ -9,7 +9,6 @@
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
-                    <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                     <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                     <span class="aa-top-slider-off">30% OFF</span>
                     <p class="aa-top-slider-price">$460,000</p>

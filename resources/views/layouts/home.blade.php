@@ -7,7 +7,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
-    <meta name="author" content="Kahtalı Miçe">
+    <meta name="author" content="Mina Arac Property">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

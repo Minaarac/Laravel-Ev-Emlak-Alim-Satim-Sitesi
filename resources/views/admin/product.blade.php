@@ -46,6 +46,7 @@
                                                 <th>Keywords</th>
                                                 <th>Description</th>
                                                 <th>Status</th>
+                                                <th>Price</th>
                                                 <th>Area</th>
                                                 <th>Location</th>
                                                 <th>Floor</th>
@@ -72,6 +73,7 @@
                                                     <td>{{$rs -> keywords}} </td>
                                                     <td>{{$rs -> description}}</td>
                                                     <td>{{$rs -> status}} </td>
+                                                    <td>{{$rs -> price}} </td>
                                                     <td>{{$rs -> area}} </td>
                                                     <td>{{$rs -> location}} </td>
                                                     <td>{{$rs -> floor}} </td>

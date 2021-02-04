@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Admin Panel Home Page')
+@section('title','Setting Page')
 
 
 @section('content')
@@ -86,6 +86,16 @@
                                     <option>True</option>
 
                                 </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd1">Price</label>
+                                <div class="input-group mb-3">
+
+                                    <input type="number" name="price" value="{{$data->price}}" class="form-control"
+                                           placeholder="price" aria-label="Password"
+                                           aria-describedby="basic-addon3">
+                                </div>
                             </div>
 
 
