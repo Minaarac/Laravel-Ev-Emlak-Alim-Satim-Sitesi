@@ -5,7 +5,7 @@
         <div class="aa-top-slider">
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/3.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/a.jpg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
@@ -19,7 +19,7 @@
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/2.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>

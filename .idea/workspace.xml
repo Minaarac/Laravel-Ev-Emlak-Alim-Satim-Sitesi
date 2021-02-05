@@ -10,21 +10,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Laravel Category Tree Sub Category Gösterimi ve Fonksiyon Tanımı">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Home Page Setting Meta Tags Data User ve Sayfa Linkleri">
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/3a6afabeed6b74b490bc52f8dcc1d2c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/3a6afabeed6b74b490bc52f8dcc1d2c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_blank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/1app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_14_105125_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_105125_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
@@ -278,7 +282,8 @@
       <workItem from="1612345740501" duration="1021000" />
       <workItem from="1612349489371" duration="14701000" />
       <workItem from="1612388021620" duration="8305000" />
-      <workItem from="1612444972378" duration="21673000" />
+      <workItem from="1612444972378" duration="29072000" />
+      <workItem from="1612530180525" duration="9344000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -385,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612371811697</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Home Page Setting Meta Tags Data User ve Sayfa Linkleri">
+      <created>1612476444741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612476444741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,17 +429,18 @@
     <MESSAGE value="Setting Site Ayarlari" />
     <MESSAGE value="Category Product One to Many İlişkisi" />
     <MESSAGE value="Laravel Category Tree Sub Category Gösterimi ve Fonksiyon Tanımı" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel Category Tree Sub Category Gösterimi ve Fonksiyon Tanımı" />
+    <MESSAGE value="Home Page Setting Meta Tags Data User ve Sayfa Linkleri" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page Setting Meta Tags Data User ve Sayfa Linkleri" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611874628069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1611874628069" />
-    <state x="455" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611923993153">
+    <state x="455" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612552663767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1611923993153" />
+    <state x="455" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1612552663767" />
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608573708676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -465,10 +478,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1609675826791" />
-    <state x="537" y="297" key="NewPhpFileDialog" timestamp="1612449985595">
+    <state x="537" y="297" key="NewPhpFileDialog" timestamp="1612552708151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="537" y="297" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612449985595" />
+    <state x="537" y="297" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612552708151" />
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1607278914609" />
     <state x="246" y="20" key="SettingsEditor" timestamp="1611832119915">
       <screen x="0" y="0" width="1366" height="728" />
@@ -483,10 +496,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612371817605">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612476449529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612371817605" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612476449529" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

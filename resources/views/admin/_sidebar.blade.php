@@ -13,7 +13,7 @@
                         <li><a href="{{route('admin_setting')}}"><i class="ti-settings"></i> Setting</a></li>
                         @auth
                             <li><a href="#"><i class="fa fa-power-off"></i> {{Auth::user()->name}}</a></li>
-                            <li><a href="{{route('admin_logout')}}"><i class="fa fa-power-off"></i> Logout</a></li>
+                            <li><a href="{{route('logout')}}"><i class="fa fa-power-off"></i> Logout</a></li>
                         @endauth
                     </ul>
                 </li>
