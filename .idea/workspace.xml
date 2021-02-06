@@ -10,30 +10,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma">
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_06_100245_add_address_to_users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_06_100517_add_phone_to_users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto5.jpeg" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="User Profile Photo Ek Alanlar Ekleme Guncelleme">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/references.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +165,14 @@
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.SQL" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\php\laravel2j\resources\views\home" />
       <recent name="C:\php\laravel2j\resources\views\admin" />
     </key>
   </component>
@@ -288,7 +273,9 @@
       <workItem from="1612388021620" duration="8305000" />
       <workItem from="1612444972378" duration="29072000" />
       <workItem from="1612530180525" duration="18907000" />
-      <workItem from="1612602584472" duration="3804000" />
+      <workItem from="1612602584472" duration="4105000" />
+      <workItem from="1612607931707" duration="3942000" />
+      <workItem from="1612639677934" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -409,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612553070063</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="User Profile Photo Ek Alanlar Ekleme Guncelleme">
+      <created>1612606718749</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612606718749</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +437,8 @@
     <MESSAGE value="Laravel Category Tree Sub Category Gösterimi ve Fonksiyon Tanımı" />
     <MESSAGE value="Home Page Setting Meta Tags Data User ve Sayfa Linkleri" />
     <MESSAGE value="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma" />
+    <MESSAGE value="User Profile Photo Ek Alanlar Ekleme Guncelleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Profile Photo Ek Alanlar Ekleme Guncelleme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611874628069">
@@ -509,10 +504,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612553076034">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612606735283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612553076034" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612606735283" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

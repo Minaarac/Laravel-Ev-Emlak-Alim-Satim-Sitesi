@@ -114,15 +114,8 @@
                                 <div class="aa-about-us-right">
                                     <div class="aa-title">
                                         <h2> <a href="{{route('aboutus')}}"> About Us </a> </h2>
-                                        <span></span>
-                                    </div>
-                                    <h2> Adress</h2>
-                                    <strong>Company :</strong> {{$setting->company}} <br>
-                                    <strong>Address :</strong> {{$setting->address}} <br>
-                                    <strong>Phone :</strong> {{$setting->phone}} <br>
-                                    <strong>Fax :</strong> {{$setting->fax}} <br>
-                                    <strong>Email :</strong> {{$setting->email}} <br>
 
+                                    </div>
 
 
 

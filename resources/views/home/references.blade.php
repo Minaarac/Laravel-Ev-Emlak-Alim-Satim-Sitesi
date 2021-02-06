@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'About Us-' .  $setting->title)
+@section('title', 'References-' .  $setting->title)
 
 @section('description') {{ $setting->description }} @endsection
 
@@ -17,7 +17,7 @@
                         <h2>Blank Page</h2>
                         <ol class="breadcrumb">
                             <li><a href="{{route('homepage')}}">HOME</a></li>
-                            <li> <a href="#"> </a> About Us</li>
+                            <li> <a href="#"> </a> References</li>
                         </ol>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
         <div class="container">
             <row>
 
-                {!! $setting->aboutus !!}
+                {!! $setting->references !!}
 
                 <div class="col-md-12">
                     <div class="aa-error-area">
