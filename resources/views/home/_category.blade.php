@@ -23,7 +23,7 @@
         </li>
         <li><a href="{{route('contact')}}">CONTACT</a></li>
         <li><a href="{{route('references')}}">REFERENCES</a></li>
-        <li><a href="404.html">404 PAGE</a></li>
+        <li><a href="">USER</a></li>
     </ul>
 </div><!--/.nav-collapse -->
 </div>

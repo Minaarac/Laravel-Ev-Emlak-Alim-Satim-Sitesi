@@ -10,25 +10,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Home Page Setting Meta Tags Data User ve Sayfa Linkleri">
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/3a6afabeed6b74b490bc52f8dcc1d2c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/3a6afabeed6b74b490bc52f8dcc1d2c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_blank.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/1app.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma">
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/foto5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_06_100245_add_address_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_06_100517_add_phone_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/slider/foto5.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
@@ -283,7 +287,8 @@
       <workItem from="1612349489371" duration="14701000" />
       <workItem from="1612388021620" duration="8305000" />
       <workItem from="1612444972378" duration="29072000" />
-      <workItem from="1612530180525" duration="9344000" />
+      <workItem from="1612530180525" duration="18907000" />
+      <workItem from="1612602584472" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -397,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612476444741</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma">
+      <created>1612553070063</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612553070063</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +442,8 @@
     <MESSAGE value="Category Product One to Many İlişkisi" />
     <MESSAGE value="Laravel Category Tree Sub Category Gösterimi ve Fonksiyon Tanımı" />
     <MESSAGE value="Home Page Setting Meta Tags Data User ve Sayfa Linkleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page Setting Meta Tags Data User ve Sayfa Linkleri" />
+    <MESSAGE value="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Profile Page oluşturma ve Jetstream Sayfasını Panele alma" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611874628069">
@@ -496,10 +509,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612476449529">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612553076034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612476449529" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612553076034" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

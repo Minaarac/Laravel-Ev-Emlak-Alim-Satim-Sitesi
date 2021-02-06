@@ -5,7 +5,7 @@
         <div class="aa-top-slider">
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/a.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/foto.jpeg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
@@ -19,22 +19,7 @@
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/7025186d77e5bc5b6855f32aefee1f0d.jpg" alt="img">
-                <!-- Top slider content -->
-                <div class="aa-top-slider-content">
-                    <span class="aa-top-slider-catg">Duplex</span>
-                    <h2 class="aa-top-slider-title">1560 Square Feet</h2>
-                    <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
-                    <span class="aa-top-slider-off">30% OFF</span>
-                    <p class="aa-top-slider-price">$460,000</p>
-                    <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
-                </div>
-                <!-- / Top slider content -->
-            </div>
-            <!-- / Top slider single slide -->
-            <!-- Top slider single slide -->
-            <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/1.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/foto1.jpeg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
@@ -49,7 +34,7 @@
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/5.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/foto2.jpeg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
@@ -64,7 +49,22 @@
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
             <div class="aa-top-slider-single">
-                <img src=" {{ asset('assets')}}/img/slider/4.jpg" alt="img">
+                <img src=" {{ asset('assets')}}/img/slider/foto3.jpeg" alt="img">
+                <!-- Top slider content -->
+                <div class="aa-top-slider-content">
+                    <span class="aa-top-slider-catg">Duplex</span>
+                    <h2 class="aa-top-slider-title">1560 Square Feet</h2>
+                    <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                    <span class="aa-top-slider-off">30% OFF</span>
+                    <p class="aa-top-slider-price">$460,000</p>
+                    <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+                </div>
+                <!-- / Top slider content -->
+            </div>
+            <!-- / Top slider single slide -->
+            <!-- Top slider single slide -->
+            <div class="aa-top-slider-single">
+                <img src=" {{ asset('assets')}}/img/slider/foto4.jpeg" alt="img">
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">Duplex</span>
