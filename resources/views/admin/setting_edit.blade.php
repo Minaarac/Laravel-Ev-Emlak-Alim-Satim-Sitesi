@@ -248,7 +248,7 @@
                                                     <label for="pwd1">About Us</label>
                                                     <div class="input-group mb-3">
 
-                                                        <textarea id="aboutus" name="aboutus" class="ckeditor" value="{{$data->aboutus}}"> </textarea>
+                                                        <textarea id="aboutus" name="aboutus" class="ckeditor"> value="{{$data->aboutus}}"</textarea>
                                                     </div>
                                                 </div>
 

@@ -38,6 +38,37 @@
 
                 <div class="col-md-4">
                     <h3 class="asside-title">  İletişim Formu </h3>
+                    @include('home.message')
+
+                    <div class="aa-contact-form">
+                        <form class="contactform" action="{{route('sendmessage')}}" method="post">
+                            @csrf
+                            <p class="comment-form-name">
+                                <label for="name">Name&Surname <span class="required">*</span></label>
+                                <input type="text" name="name" value="" size="20" required="required">
+                            </p>
+
+                            <p class="comment-form-phone">
+                                <label for="phone">Phone <span class="required">*</span></label>
+                                <input type="phone" name="phone" value="" aria-required="true" required="required">
+                            </p>
+                            <p class="comment-form-email">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" name="email" value="" aria-required="true" required="required">
+                            </p>
+                            <p class="comment-form-url">
+                                <label for="subject">Subject</label>
+                                <input type="text" name="subject">
+                            </p>
+                            <p class="comment-form-comment">
+                                <label for="comment">Message</label>
+                                <textarea class="input"  name="message" cols="45" rows="5" placeholder="Your Message"></textarea>
+                            </p>
+                            <p class="form-submit">
+                                <input type="submit" name="submit" class="aa-browse-btn" value="Send Message">
+                            </p>
+                        </form>
+                    </div>
 
 
 

@@ -26,6 +26,10 @@
 
                 </li>
 
+                <li> <a class=" waves-effect waves-dark" href="{{ route('admin_message') }}" aria-expanded="false">Contact Messages</a>
+
+                </li>
+
 
 
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-layout-grid2"></i><span class="hide-menu">Apps</span></a>
