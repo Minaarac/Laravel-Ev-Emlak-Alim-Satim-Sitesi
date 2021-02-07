@@ -9,7 +9,7 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="{{route('homepage')}}">SATILIK <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
                 @foreach($parentCategories as $rs)
-                    <li><a class="dropdown-item small text-uppercase">{{$rs->title}}</a></li>
+                    <li><a href="{{route('categoryproducts',['id'=>$rs->id])}}" class="dropdown-item small text-uppercase">{{$rs->title}}</a></li>
                 @endforeach
             </ul>
         </li>
