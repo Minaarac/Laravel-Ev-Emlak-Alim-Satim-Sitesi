@@ -18,14 +18,13 @@ use App\Http\Controllers\HomeController;
 Route::get('/home2', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return view('home.index');
-});
+Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/home',[HomeController::class,'index'])->name('homepage');
 Route::get('/aboutus',[HomeController::class,'aboutus'])->name('aboutus');
 Route::get('/references',[HomeController::class,'references'])->name('references');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 Route::post('/sendmessage',[HomeController::class,'sendmessage'])->name('sendmessage');
+Route::get('/product/{id}',[HomeController::class,'product'])->name('product');
 
 
 
