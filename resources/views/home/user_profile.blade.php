@@ -58,7 +58,7 @@
                         <h2> <div align="center"><p> User Page </p> </div></h2>
                         <ol class="breadcrumb">
                             <li><a href="{{route('homepage')}}">HOME</a></li>
-                            <li> <a href="#"> </a> User Profile</li>
+                            <li> <a href=""> </a> User Profile</li>
                         </ol>
                     </div>
 

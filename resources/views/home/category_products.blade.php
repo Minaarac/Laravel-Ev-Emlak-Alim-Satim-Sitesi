@@ -109,7 +109,7 @@
                                             <li>
                                                 <article class="aa-properties-item">
                                                     <a class="aa-properties-item-img" href="#">
-                                                        <img alt="img" style="height: 200px" src="{{Storage::url($rs->image)}}">
+                                                        <img alt="img" style="height: 200px" src="{{Storage::url($rs->image)}}" >
                                                     </a>
                                                     <div class="aa-tag for-rent">
                                                         For Sale

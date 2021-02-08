@@ -24,12 +24,16 @@ class HomeController extends Controller
     {
         $setting = Setting::first();
         $slider = Product::select('id','title', 'image', 'price','description')->limit(4)->get();
+        #$daily = Product::select('id','title', 'image', 'price','description')->limit(4)->get();
+        $last = Product::select('id','title', 'image', 'price','description')->limit(4)->get();
         #print_r($slider);
         #exit();
         $data = [
             'setting' => $setting,
             'slider' => $slider,
-            'page' => 'home',
+            #'daily' => $daily,
+            'last' => $last,
+            'page' => 'home'
 
         ];
         return view('home.index',$data);
