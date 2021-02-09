@@ -6,8 +6,8 @@
         <li> <a href="{{route('myprofile')}}">  My Profile </a> </li>
         <li>My Review </li>
         <li>My Message  </li>
-        <li>My Announcement </li>
-        <li>My Favourites </li>
+        <li> <a href="{{route('user_products')}}"> My Announcements  </a> </li>
+        <li>  My Favourites </li>
         <li><a href="{{route('logout')}}" > Logout </a> </li>
 
     </ul>

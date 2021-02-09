@@ -1,5 +1,4 @@
 
-
 @section('title','User Profile')
 
     <!DOCTYPE html>
@@ -49,7 +48,6 @@
 @include('home._header')
 
 
-
     <section id="aa-error-area">
         <div class="container">
             <div class="row">
@@ -74,12 +72,14 @@
                 @include('home.usermenu')
                 <div class="col-md-12">
                     <div class="">
-                        @include('profile.show')
 
                     </div>
+                    @include('profile.show')
+
                 </div>
             </row>
         </div>
     </section>
+@include('home._footer')
 
 

@@ -1,51 +1,89 @@
-@extends('layouts.admin')
-@section('title','Setting Page')
+
+@section('title','Edit Product')
+<script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@yield('title')</title>
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
+    <meta name="author" content="Mina Arac Property">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="{{ asset('assets')}}/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="{{ asset('assets')}}/css/bootstrap.css" rel="stylesheet">
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets')}}/css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets')}}/css/nouislider.css">
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="{{ asset('assets')}}/css/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Theme color -->
+    <link id="switcher" href="{{ asset('assets')}}/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main style sheet -->
+    <link href="{{ asset('assets')}}/css/style.css" rel="stylesheet">
 
 
-@section('content')
-    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <div class="page-wrapper">
-        <!-- ============================================================== -->
-        <!-- Container fluid  -->
-        <!-- ============================================================== -->
-        <div class="container-fluid">
-            <!-- ============================================================== -->
-            <!-- Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
-            <div class="row page-titles">
-                <div class="col-md-5 align-self-center">
-                    <h4 class="text-themecolor">Product Edit </h4>
-                </div>
-                <div class="col-md-7 align-self-center text-right">
-                    <div class="d-flex justify-content-end align-items-center">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+@include('home._header')
+
+
+    <section id="aa-error-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="aa-error-area">
+
+                        <h3> <div align="center"><p>Edit Product </p> </div></h3>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                            <li class="breadcrumb-item active">Blank Page</li>
+                            <li><a href="{{route('homepage')}}">HOME</a></li>
+                            <li><a href="#"> </a> </li>
                         </ol>
-                        <button type="button" class="btn btn-info d-none d-lg-block m-l-15"><i
-                                class="fa fa-plus-circle"></i> Create New
-                        </button>
                     </div>
                 </div>
+                @include('home.usermenu')
             </div>
-            <!--*******************************-->
-            <div class="card body-primary">
-                <div class="card-header bg-info">
-                    <h4 class="m-b-0 text-white">Form with view only</h4>
-                </div>
+
+        </div>
+
+    </section>
+
+    <section id="aa-error">
+        <div class="container">
+            <row>
                 <div class="card-body">
                     <div class="card">
-                        <form class="form p-t-20" action="{{route('admin_product_update',['id'=>$data->id])}}"
+                        <form class="form p-t-20" action="{{route('user_product_update',['id'=>$data->id])}}"
                               method="POST">
                             @csrf
                             <div class="form-group">
                                 <label>Category</label>
-                                <select class="form-control select2" name="category_id" style="width: 100%">
+                                <select class="form-control select2" name="category_id" style="width: 40%">
                                     @foreach($datalist as $rs)
                                         <option value="{{ $rs->id }}"
                                                 @if($rs->id == $data->parent_id) selected="selected" @endif>
-                                           {{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}}
+                                            {{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}}
                                         </option>
                                     @endforeach
 
@@ -81,7 +119,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Status</label>
-                                <select class="form-control select2" name="status" style="width: 100%">
+                                <select class="form-control select2" name="status" style="width: 10%">
                                     <option selected="selected">{{$data->status}}</option>
                                     <option>False</option>
                                     <option>True</option>
@@ -194,8 +232,8 @@
                                 <label for="pwd1">detail</label>
                                 <div class="input-group mb-3">
 
-                                    <textarea name="detail" id="detail"
-                                              class="detail"> value="{{$data->detail}}" </textarea>
+                                      <textarea name="detail" id="detail"
+                                                class="detail"> value="{{$data->detail}}" </textarea>
                                     <script>
                                         CKEDITOR.replace( 'detail' );
                                     </script>
@@ -222,8 +260,9 @@
                         </form>
                     </div>
                 </div>
-            </div>
+
+
+            </row>
         </div>
-
-@endsection
-
+    </section>
+@include('home._footer')

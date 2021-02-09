@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\MessageController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -88,11 +89,31 @@ Route::middleware('auth')->prefix('admin')->group(function(){
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
 
     Route::get('/',[UserController::class,'index'])->name('myprofile');
+
+    Route::prefix('product')->group(function(){
+        Route::get('/',[ProductController::class,'index'])->name('user_products');
+        Route::get('create',[ProductController::class,'create'])->name('user_product_add');
+        Route::post('store',[ProductController::class,'store'])->name('user_product_store');
+        Route::get('edit/{id}',[ProductController::class,'edit'])->name('user_product_edit');
+        Route::post('update/{id}',[ProductController::class,'update'])->name('user_product_update');
+        Route::get('delete/{id}',[ProductController::class,'destroy'])->name('user_product_delete');
+        Route::get('show',[ProductController::class,'show'])->name('user_product_show');
+
+    });
+
+    Route::prefix('image')->group(function(){
+        Route::get('create/{product_id}',[\App\Http\Controllers\Admin\ImageController::class,'create'])->name('user_image_add');
+        Route::post('store/{product_id}',[\App\Http\Controllers\Admin\ImageController::class,'store'])->name('user_image_store');
+        Route::get('delete/{id}/{product_id}',[\App\Http\Controllers\Admin\ImageController::class,'destroy'])->name('user_image_delete');
+        Route::get('show',[\App\Http\Controllers\Admin\ImageController::class,'show'])->name('user_image_show');
+
+    });
+
 });
 
 Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
 
-    Route::get('/profile',[UserController::class,'index'])->name('userprofile');
+    Route::get('/profile',[UserController::class,'index'])->name('profile.show');
 });
 
 
