@@ -26,6 +26,7 @@ Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 Route::post('/sendmessage',[HomeController::class,'sendmessage'])->name('sendmessage');
 Route::get('/product/{id}',[HomeController::class,'product'])->name('product');
 Route::get('/categoryproducts/{id}',[HomeController::class,'categoryproducts'])->name('categoryproducts');
+Route::post('/getproduct',[HomeController::class,'getproduct'])->name('getproduct');
 
 
 

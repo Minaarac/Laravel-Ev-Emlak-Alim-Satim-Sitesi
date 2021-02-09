@@ -25,5 +25,6 @@
             <!-- / Top slider single slide -->
         </div>
     </div>
+
 </section>
 <!-- End slider  -->

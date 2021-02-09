@@ -10,36 +10,64 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment=" Home Products Anasayfa da Ürünlerin Gösterilmesi">
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/agent-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/agent-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/item/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/product_detail.blade.php" afterDir="false" />
+    <list default="true" id="ab0a8496-ffb9-45ef-8bd1-384df85c1008" name="Default Changelist" comment="Product Detail Urun İçerik Detay Sayfası">
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/agents/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/markdown/policy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/markdown/terms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/confirm-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/policy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/terms.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ApiTokenPermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/BrowserSessionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CreateApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/DeleteAccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/DeleteApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ProfileInformationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/UpdatePasswordTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserProfileInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/agents/agent-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/agents/agent-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/agents/agent-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/agents/agent-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/item/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/item/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/item/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slide.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <list id="dc81ac0b-acc3-4a86-9155-3f96a9a2423d" name="second commit template eklenmesi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +329,7 @@
       <workItem from="1612703693075" duration="15141000" />
       <workItem from="1612721878137" duration="2031000" />
       <workItem from="1612732785064" duration="9725000" />
-      <workItem from="1612774916547" duration="11389000" />
+      <workItem from="1612774916547" duration="31564000" />
     </task>
     <task id="LOCAL-00001" summary="second commit template eklenmesi">
       <created>1608646025026</created>
@@ -471,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612779575184</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Product Detail Urun İçerik Detay Sayfası">
+      <created>1612809528865</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1612809528865</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +547,8 @@
     <MESSAGE value="Category Product Ürünlerini Listeleme" />
     <MESSAGE value="Ana Template içerik düzenleme" />
     <MESSAGE value=" Home Products Anasayfa da Ürünlerin Gösterilmesi" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Home Products Anasayfa da Ürünlerin Gösterilmesi" />
+    <MESSAGE value="Product Detail Urun İçerik Detay Sayfası" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Detail Urun İçerik Detay Sayfası" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611874628069">
@@ -578,10 +614,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="284" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1608647503379" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612779581011">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612809545308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612779581011" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612809545308" />
     <state x="584" y="248" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609676424096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -590,21 +626,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1609529010325" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1612831907518">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612831907518" />
     <state x="352" y="125" width="672" height="600" key="search.everywhere.popup" timestamp="1611832265367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="352" y="125" width="672" height="600" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611832265367" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607276120322" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php</url>
-          <line>75</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
