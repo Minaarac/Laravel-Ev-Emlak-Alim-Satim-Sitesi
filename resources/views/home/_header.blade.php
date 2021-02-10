@@ -23,7 +23,7 @@
                             <div class="col-md-6 col-sm-6 col-xs-6">
                                 <div class="aa-header-right">
                                     <strong class="text-lowercase"> {{Auth::user()->name}} <i
-                                            class="fa fa-caret-down"> </i> </strong>
+                                            class="fa fa-caret-down"> </i> {{Auth::user()->roles->pluck('name')}} </strong>
 
                                 </div>
                             </div>

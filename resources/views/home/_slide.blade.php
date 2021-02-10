@@ -10,7 +10,7 @@
                 <!-- Top slider content -->
                 <div class="aa-top-slider-content">
                     <span class="aa-top-slider-catg">{{$rs->title}}</span>
-                    <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                    <p class="aa-top-slider-location"> <i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                     <span class="aa-top-slider-off">30% OFF</span>
                     <p class="aa-top-slider-price">{{$rs->price}}</p>
                     <a href="{{route('product',['id' => $rs->id,'description' => $rs->description])}}" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
