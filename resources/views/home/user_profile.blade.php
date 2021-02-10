@@ -69,15 +69,16 @@
     <section id="aa-error">
         <div class="container">
             <row>
+                <div class="col-md-2">
                 @include('home.usermenu')
-                <div class="col-md-12">
-                    <div class="">
+                </div>
+                <div class="col-md-10">
 
-                    </div>
                     @include('profile.show')
 
                 </div>
             </row>
+
         </div>
     </section>
 @include('home._footer')

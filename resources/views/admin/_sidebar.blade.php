@@ -5,7 +5,10 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
-                <li class="user-pro"> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><img src="{{ asset('assets')}}/admin/assets/images/users/1.jpg" alt="user-img" class="img-circle"><span class="hide-menu">{{Auth::user()->name}}</span></a>
+                @if (Auth::user()->profile_photo_path)
+                    <img src="{{Storage::url(Auth::user()->profile_photo_path)}}" style="height: 50px" alt="user-img" class="img-circle">
+                @endif
+                <li class="user-pro"> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="hide-menu">{{Auth::user()->name}}</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="javascript:void(0)"><i class="ti-user"></i> My Profile</a></li>
                         <li><a href="javascript:void(0)"><i class="ti-wallet"></i> My Balance</a></li>
@@ -27,6 +30,10 @@
                 </li>
 
                 <li> <a class=" waves-effect waves-dark" href="{{ route('admin_message') }}" aria-expanded="false">Contact Messages</a>
+
+                </li>
+
+                <li> <a class=" waves-effect waves-dark" href="{{ route('admin_users') }}" aria-expanded="false">User</a>
 
                 </li>
 
